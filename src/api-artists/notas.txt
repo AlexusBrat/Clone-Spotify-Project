@@ -1,0 +1,7 @@
+Esse arquivo [artists.json] esta servindo como uma fake API, onde ela esta sendo hospedada pelo "json-server".
+
+O processo para fazer essa hospedagem foi a instalação do json-server. (É necessário possuir o Node.js instalado)
+- Foi executado o comando [ npm install -g json-server ] (instalação do json-server)
+- Através do CMD, foi feita a navegação ate a pasta destino do arquivo .JSON
+- Então foi executado o comando [ json-server --watch {nomeDoArquivo.json} --port 3000 ]
+- Após feito tudo isso o servidor da API já esta rodando localmente na máquina e servindo ao arquivo desejado para er consumido.
